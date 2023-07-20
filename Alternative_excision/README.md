@@ -9,3 +9,6 @@ Note: the sample with the smallest library size (not included in downsampling), 
 
 ### Downsampled_Alternative_Excision_ICOP_paper.ipynb
 This notebook analyses the alternative excision events reported in the gff3.gz files outputted by MILORD.
+
+### MILORD.pm
+Pre-release MILORD module used in this study. The updated version is on https://github.com/oarnaiz/ParTIES/tree/master/lib/PARTIES
