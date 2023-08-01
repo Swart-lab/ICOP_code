@@ -1,8 +1,3 @@
-//this script is to add scale bar in the overlay and flatten into RGB
-//Adjust brightness and contrast for each channel as you want them
-//operations done: add scale bar, flatten overlay, save as tiff
-//this script works on currently selected image
-
 // get the path and the title of the current image
 path = getDir("image");
 imageTitle = getTitle();
