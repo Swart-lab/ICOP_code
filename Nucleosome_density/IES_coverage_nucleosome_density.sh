@@ -1,5 +1,5 @@
-# This script maps reads, size-selects them and extracts IES mapping reads
-# optianlly reads on IESs can be counted. If downsampling should be applied, don't count the reads here
+# This script maps reads, size-selects them and extracts IES-mapping reads
+# optionally reads on IESs can be counted. If downsampling should be applied, don't count the reads here
 
 # provide sample prefix (uncomment as appropriate)
 PREFIX=WCP1_2_PGM_DNase
