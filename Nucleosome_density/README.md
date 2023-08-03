@@ -1,6 +1,6 @@
 # IES_nuc_density_LH
 
-## Content
+## Content of this subdirectory
 ### IES_coverage scripts
 These scripts map the reads to the reference genome. The "nucleosome_density" script size selects the reads. Both scripts extract properly paired and mapped reads and reads mapping to IESs. If no downsampling is applied, the reads on IESs can be counted.
 
