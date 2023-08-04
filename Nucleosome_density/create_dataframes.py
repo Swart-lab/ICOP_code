@@ -1,17 +1,18 @@
 import pandas as pd
 from functools import reduce
+import numpy as np
 
-files = ['ICOPs.merged.lengths.IES.downsampled.htseq-count.txt.gz',
-         'ISWI1.IES_read_counts.txt.gz',
-         'NOWA1.IES_read_counts.txt.gz',
-         'PTCAF.htseq-count.downsampled.txt.gz']
+files = ['input_files/ICOPs.merged.lengths.IES.downsampled.htseq-count.txt.gz',
+         'input_files/ISWI1.IES_read_counts.txt.gz',
+         'input_files/NOWA1.IES_read_counts.txt.gz',
+         'input_files/PTCAF.htseq-count.downsampled.txt.gz']
 
 # read all input files in data frames
 dfs = []
 for file in files:
     dfs.append(pd.read_csv(file, compression = 'gzip', sep=" "))
-    
-# merge the data frames 
+
+# merge the data frames
 df = reduce(lambda left,right: pd.merge(left,right,on=['IES', 'IES_length'],
                 how='outer'), dfs).fillna(np.nan)
 
