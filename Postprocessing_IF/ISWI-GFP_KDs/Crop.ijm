@@ -1,7 +1,3 @@
-//this script should be used on stacks
-//in a pipeline: visualize > TIFgenerateor > this script > SavingStackSlices
-//this script mainly automaizes saving the checkpoitns as .tiff files
-
 //get the path and the title of the current image
 path = getDir("image"); 
 imageTitle = getTitle();
