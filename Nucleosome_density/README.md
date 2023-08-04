@@ -1,4 +1,4 @@
-# IES_nuc_density_LH
+# IES nucleosome density analyses
 
 ## Content of this subdirectory
 ### Read mapping scripts
