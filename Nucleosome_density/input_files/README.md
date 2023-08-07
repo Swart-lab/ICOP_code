@@ -12,3 +12,4 @@ Output: ICOPs.merged.lengths.IES.downsampled.htseq-count.txt.gz
 - ISWI1.IES_read_counts.txt.gz
 - NOWA1.IES_read_counts.txt.gz
 - PTCAF.htseq-count.downsampled.txt.gz
+- ICOP_IRS.tab.gz
