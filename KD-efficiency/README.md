@@ -1,6 +1,6 @@
 # Validating knockdown efficiency
 
-### eXpress.sh
+### calculate_eXpression.sh
 This script maps the PE reads to the reference split-transcriptome. In this transcriptome, the target gene of the KD is split into 
 5'-, silencing- and 3'-region. This is required when the coverage on the silencing region is much higher than on the rest of the 
 transcript (due to siRNAs produced during silencing). Each knockdown therefore requires a separate split-transcriptome.
