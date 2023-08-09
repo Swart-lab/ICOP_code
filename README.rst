@@ -3,7 +3,7 @@ Code for ICOP manuscript
 
 The following code is contained in this repository:
 
-#. scripts for alternative excision of IESs (alternative_excision_)
+#. scripts for alternative excision of IESs (Alternative_excision_)
 #. scripts for IES retention score correlation analyses (IES_retention_)
 #. scripts for sRNA mapping, post-processing and sRNA histograms (sRNA_analysis_)
 #. scripts for analysis of knockdown efficiency assessed by RNA-seq (KD-efficiency_)
